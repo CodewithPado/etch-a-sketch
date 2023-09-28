@@ -1,0 +1,21 @@
+*{ 
+  box-sizing: border-box;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  width: 600px;
+  height:600px;
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.container> .square{
+  border: 1px solid rgba(0, 0, 0, 1);
+  background-color: white;
+}
+
+
+
+/** Create a fixed height and width in the container**/ 
