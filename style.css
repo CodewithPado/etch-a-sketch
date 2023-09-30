@@ -8,14 +8,16 @@
   grid-template-rows: repeat(16, 1fr);
   width: 600px;
   height:600px;
-  border: 1px solid rgba(0, 0, 0, 1);
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .container> .square{
-  border: 1px solid rgba(0, 0, 0, 1);
+  border: 1px solid rgba(0, 0, 0);
   background-color: white;
 }
 
+/** Create pixelated hover effect for square div's .square:hover{
+}**/
 
 
 /** Create a fixed height and width in the container**/ 
