@@ -1,76 +1,79 @@
-*{ 
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.container{
+.container {
   width: 600px;
   height: 600px;
   display: grid;
   border: 1px solid black;
 }
 
-.buttons{
-  display:flex;
+.buttons {
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 .size:hover {
   cursor: pointer;
 }
-input{
+input {
   border-radius: 5px;
 }
 
-button{
+button {
   border: 1px solid black;
   border-radius: 2em;
   color: black;
   transition: all 0.3s;
 }
 
-.input-form{
+.input-form {
   display: flex;
   flex-direction: row;
-  align-items:center;
+  align-items: center;
   justify-content: space-between;
 }
 
-.draw{
+.draw {
   font-weight: bold;
 }
 
-.error{
+.error {
   font-weight: bold;
   display: none;
 }
 
-.blackButton:hover{
+.blackButton:hover {
   cursor: pointer;
 }
 
-.whiteButton:hover{
+.whiteButton:hover {
   cursor: pointer;
 }
-.resetButton:hover{
-  cursor: pointer;
-}
-
-.randomButton{
-  background: rgb(0,0,0);
-  background: linear-gradient(90deg,rgba(255,0,0,.5) 10%,20%, rgba(0,255,0,.5) 30%, rgba(0,0,255,.5) 40%, rgba(255,255,255,.5) 70%);
-}
-
-.randomButton:hover{
+.resetButton:hover {
   cursor: pointer;
 }
 
+.randomButton {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.5) 10%,
+    20%,
+    rgba(0, 255, 0, 0.5) 30%,
+    rgba(0, 0, 255, 0.5) 40%,
+    rgba(255, 255, 255, 0.5) 70%
+  );
+}
 
-
-
+.randomButton:hover {
+  cursor: pointer;
+}

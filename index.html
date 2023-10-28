@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
     <title>Etch-a-Sketch!</title>
   </head>
-    <body>
-      <header>
-        <h1>Etch-a-Sketch</h1>
-      </header>
-      <p class="draw">Coloring: On</p>
-      <div class="container">
-        
-      </div>
-      <div class="input-field">
-        <input 
-          type="text" 
-          placeholder="Size of grid" 
-          value="16" 
-          onchange="changeSize(this.value)">
-        <button class="size">Size</button>
-        <p class="error">Error: input must be between 2 and 100</p>
-      </div>
-      <div class="buttons">
-        <button class="blackButton"onclick="changeColor('black')">Black</button>
-        <button class="randomButton"onclick="changeColor('random')">Random</button>
-        <button class="whiteButton" onclick="changeColor('white')">White</button>
-        <button class="resetButton" onclick="resetGrid()">Reset</button>
-      </div>
+  <body>
+    <header>
+      <h1>Etch-a-Sketch</h1>
+    </header>
+    <p class="draw">Coloring: On</p>
+    <div class="container"></div>
+    <div class="input-field">
+      <input
+        type="text"
+        placeholder="Size of grid"
+        value="16"
+        onchange="changeSize(this.value)"
+      />
+      <button class="size">Size</button>
+      <p class="error">Error: input must be between 2 and 100</p>
+    </div>
+    <div class="buttons">
+      <button class="blackButton" onclick="changeColor('black')">Black</button>
+      <button class="randomButton" onclick="changeColor('random')">
+        Random
+      </button>
+      <button class="whiteButton" onclick="changeColor('white')">White</button>
+      <button class="resetButton" onclick="resetGrid()">Reset</button>
+    </div>
     <script defer src="validation.js"></script>
-    </body>
-</html> 
+  </body>
+</html>
